@@ -7,7 +7,7 @@ const UserDetails = ({ currColor }) => {
             <div className={`w-full h-8 my-5 border border-gray-700 rounded ${currColor ? 'bg-[#222426]' : 'bg-[#fff]'}`}>
                 <p className='w-full text-[16px] text-left ml-3 mt-1'>Lead Details</p>
             </div>
-            <div className='flex flex-col gap-3'>
+            <div className='flex flex-col gap-5'>
                 <div className='flex justify-between mx-3 text-[14px]'>
                     <p>Name</p>
                     <p>Aditya</p>
