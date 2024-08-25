@@ -5,6 +5,10 @@
   - React
   - Tailwind css
 
+## Optimized using
+
+   - LazyLoading
+
 ## Live Demo
 
 Onebox is accessible at https://one-box-ebon.vercel.app
