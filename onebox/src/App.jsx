@@ -1,17 +1,21 @@
-import { useState } from 'react'
+import { lazy,Suspense } from 'react'
 import './App.css'
 import {Routes,Route} from 'react-router-dom'
-import Login from './pages/Login'
-import Home from './pages/Home'
-function App() {
- 
 
+const Login=lazy(()=> import('./pages/Login'));
+const Home=lazy(()=> import('./pages/Home'));
+
+function App() {
   return (
     <>
-        <Routes>
-            <Route path='/' element={<Login/>}/>
-            <Route path='/home' element={<Home/>}/>
-        </Routes>
+       <Suspense fallback={ <div className='verify'>
+            <div className="spinner"></div>
+          </div>}>
+          <Routes>
+              <Route path='/' element={<Login/>}/>
+              <Route path='/home' element={<Home/>}/>
+          </Routes>
+       </Suspense>
     </>
   )
 }

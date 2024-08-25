@@ -200,7 +200,7 @@ const Home = () => {
                 </div>
               </div>
               <hr className="mt-2.5" />
-              <div className="text-left">
+              <div className="text-left" style={{cursor:'pointer'}}>
                 {data?.length > 0 &&
                   data.map((item) => (
                     <div key={item.id}>
