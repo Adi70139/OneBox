@@ -89,7 +89,7 @@ const Home = () => {
   useEffect(() => {}, [singleMail, showEmailDesktop, isModalOpen]);
 
   const handleChangeEmail = (id) => {
-    getMailMassages(id)
+    getMailMessages(id)
       .then((messages) => {
         setSingleMail(messages);
       })
