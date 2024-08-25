@@ -7,10 +7,10 @@ const UserDetails = ({ currColor }) => {
             <div className={`w-full h-8 my-5 border border-gray-700 rounded ${currColor ? 'bg-[#222426]' : 'bg-[#fff]'}`}>
                 <p className='w-full text-[16px] text-left ml-3 mt-1'>Lead Details</p>
             </div>
-            <div className='flex flex-col gap-5'>
+            <div className='flex flex-col gap-3'>
                 <div className='flex justify-between mx-3 text-[14px]'>
                     <p>Name</p>
-                    <p>Orlando</p>
+                    <p>Aditya</p>
                 </div>
                 <div className='flex justify-between mx-3 text-[14px]'>
                     <p>Contact No</p>
@@ -18,11 +18,11 @@ const UserDetails = ({ currColor }) => {
                 </div>
                 <div className='flex justify-between mx-3 text-[14px]'>
                     <p>Email ID</p>
-                    <p>orladom@gmail.com</p>
+                    <p>vardhan70139@gmail.com</p>
                 </div>
                 <div className='flex justify-between mx-3 text-[14px]'>
                     <p>Linkedin</p>
-                    <p>linkedin.com/in/timvadde/</p>
+                    <p>linkedin.com/in/Adi70139</p>
                 </div>
                 <div className='flex justify-between mx-3 text-[14px]'>
                     <p>Company Name</p>
