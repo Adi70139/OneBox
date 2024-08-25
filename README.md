@@ -43,7 +43,7 @@ Onebox is accessible at https://one-box-ebon.vercel.app
  
    <h2>Installation</h2>
    
-   Clone the repository:   ``` git clone https://github.com/Adi70139/OneBox.git ``` <br/>
+   Clone the repository or Download the zip file :  ``` git clone https://github.com/Adi70139/OneBox.git ``` <br/>
    Navigate to the project directory:   ``` cd onebox ``` <br/>
    Install the dependencies:   ``` npm install ``` <br/>
    Start the development server:   ``` npm run dev ``` <br/>
