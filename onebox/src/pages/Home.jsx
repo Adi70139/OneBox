@@ -5,11 +5,7 @@ import Workspace from "../components/Workspace";
 import { useLocation } from "react-router";
 import { jwtDecode } from "jwt-decode";
 import { ChevronDown } from "lucide-react";
-import {
-  deleteMailResponse,
-  getMailList,
-  getMailMessages,
-} from "../Actions/Action";
+import {deleteMailResponse,getMailList,getMailMessages} from "../Actions/Action";
 import InboxEmailCard from "../components/InboxEmailCard";
 import InboxHeader from "../components/InboxHeader";
 import LoadingPage from "../components/LoadingPage";
@@ -146,18 +142,18 @@ const Home = () => {
       </div>
       <div className="w-full max-w-[1383]">
         <div
-          className={` h-[64px] flex justify-between py-4 pl-8 ${
+          className={` h-[64px] flex justify-between py-4 pl-6 ${
             currColor ? "bg-[#1F1F1F]" : "bg-white"
           } border ${currColor ? "border-gray-700" : "border-gray-300"} `}
         >
           <p
-            className={`w-full text-left text-xl ${
+            className={`w-64 text-left text-xl ${
               currColor ? "text-white-900" : "text-black-900"
             } `}
-          >
+           >
             Onebox
           </p>
-          <div className="w-[210px] h-8 mr-5 flex justify-center items-center gap-5">
+          <div className="w-[250px] h-8 mr-5 flex justify-center items-center gap-5">
             <Theme
               currColor={currColor}
               onClick={() => setCurrColor(!currColor)}
@@ -173,7 +169,7 @@ const Home = () => {
               currColor ? "border-gray-700" : "border-gray-300"
             } `}
           >
-            <div className="w-[275px] ml-5  pr-3">
+            <div className="w-[200px] ml-5  pr-3">
               <div className="flex justify-between mt-4 items-center">
                 <InboxHeader currColor={currColor} />
               </div>
@@ -200,10 +196,10 @@ const Home = () => {
                 </div>
               </div>
               <hr className="mt-2.5" />
-              <div className="text-left" style={{cursor:'pointer'}}>
+              <div className="text-left">
                 {data?.length > 0 &&
                   data.map((item) => (
-                    <div key={item.id}>
+                    <div key={item.id} style={{ cursor: "pointer" }}>
                       <InboxEmailCard
                         currColor={currColor}
                         {...item}
@@ -220,7 +216,7 @@ const Home = () => {
         )}
       </div>
       <div>
-        <Modal isOpen={isModalOpen} onClose={closeModal}>
+      <Modal isOpen={isModalOpen} onClose={closeModal}>
           <div className="w-[440px] h-[240px] text-white ">
             <div className="h-full ">
               <h1 className="text-[24px] font-bold mt-8 ml-32">Are you Sure ?</h1>

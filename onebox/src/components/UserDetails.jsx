@@ -4,33 +4,33 @@ import React from 'react';
 const UserDetails = ({ currColor }) => {
     return (
         <div className='w-full px-2'>
-            <div className={`w-full h-8 my-5 border border-gray-700 rounded ${currColor ? 'bg-[#222426]' : 'bg-[#fff]'}`}>
+            <div className={`w-52 h-8 my-5 border border-gray-700 rounded ${currColor ? 'bg-[#222426]' : 'bg-[#fff]'}`}>
                 <p className='w-full text-[16px] text-left ml-3 mt-1'>Lead Details</p>
             </div>
-            <div className='flex flex-col gap-5'>
-                <div className='flex justify-between mx-3 text-[14px]'>
-                    <p>Name</p>
+            <div className='flex flex-col gap-3'>
+                <div className='flex justify-start gap-2 mx-3 text-[14px]'>
+                    <p>Name :-</p>
                     <p>Aditya</p>
                 </div>
-                <div className='flex justify-between mx-3 text-[14px]'>
-                    <p>Contact No</p>
-                    <p>+53 4245252354</p>
+                <div className='flex justify-start mx-3 text-[14px]'>
+                    <p>Contact No :-</p>
+                    <p>+97 1234567896</p>
                 </div>
-                <div className='flex justify-between mx-3 text-[14px]'>
-                    <p>Email ID</p>
+                <div className='flex justify-start mx-3 text-[14px]'>
+                    <p>Email ID :-</p>
                     <p>vardhan70139@gmail.com</p>
                 </div>
-                <div className='flex justify-between mx-3 text-[14px]'>
-                    <p>Linkedin</p>
+                <div className='flex justify-start gap-2 mx-3 text-[14px]'>
+                    <p>Linkedin :-</p>
                     <p>linkedin.com/in/Adi70139</p>
                 </div>
-                <div className='flex justify-between mx-3 text-[14px]'>
-                    <p>Company Name</p>
+                <div className='flex justify-start mx-3 text-[14px]'>
+                    <p>Company Name :-</p>
                     <p>Reachinbox</p>
                 </div>
             </div>
 
-            <div className={`w-full h-8 my-5 border border-gray-700 rounded ${currColor ? 'bg-[#222426]' : 'bg-[#fff]'}`}>
+            <div className={`w-52 h-8 my-5 border border-gray-700 rounded ${currColor ? 'bg-[#222426]' : 'bg-[#fff]'}`}>
                 <p className='w-full text-[16px] text-left ml-3 mt-1'>Activities</p>
                 <div className="p-2 sm:p-5 font-sans font-semibold space-y-5">
                     <div className={`${currColor ? 'text-white' : 'text-black'} text-left text-lg`}>Campaign Name</div>

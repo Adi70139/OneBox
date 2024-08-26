@@ -3,7 +3,7 @@ import React from 'react';
 const Theme = ({ currColor, onClick }) => {
     return (
         <div 
-            className={`w-8 h-8 border cursor-pointer ${currColor ? "border-white-2" : "border-black-2"} rounded-3xl flex justify-center items-center ${currColor ? "bg-green-300" : "bg-black"}`} 
+            className={`w-80 h-8 border cursor-pointer ${currColor ? "border-white-2" : "border-black-2"} rounded-3xl flex justify-center items-center ${currColor ? "bg-green-300" : "bg-black"}`} 
             onClick={onClick}
         >
             {!currColor ? (
