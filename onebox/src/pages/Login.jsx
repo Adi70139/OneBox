@@ -9,8 +9,6 @@ const Login = () => {
     function handleclick(){
          if(isAuthenticated){
              toast.success("Log in successfull");
-         }else{
-            toast.error("Log in failed");
          }
     }
 

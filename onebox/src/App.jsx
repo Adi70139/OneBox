@@ -8,7 +8,7 @@ const Home=lazy(()=> import('./pages/Home'));
 function App() {
   return (
     <>
-        <ToastContainer />
+       <ToastContainer />
        <Suspense fallback={ <div className='verify'>
             <div className="spinner"></div>
           </div>}>
