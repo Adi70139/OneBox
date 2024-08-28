@@ -13,6 +13,10 @@
 
 Onebox is accessible at https://one-box-ebon.vercel.app
 
+## Video Explanation
+
+Loom Link:- https://www.loom.com/share/3df8522c88d44473843a382470e1b633?sid=72a0ea25-a3ad-48d6-a256-f8321dec0f05
+
 ## Screenshots of the Application
 ## Login Page
 
