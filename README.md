@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-Onebox is accessible at https://one-box-ebon.vercel.app
+Onebox is accessible at https://one-box-reactinbox.vercel.app
 
 ## Video Explanation
 
